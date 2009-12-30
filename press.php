@@ -7,23 +7,20 @@
   ?>
 
 
-    <!-- Insert your content here -->
-<h2>Trailer</h2>
+<h2>Presse und Preise</h2>
 
-<div class="embedded_video">
-	<p id="player2"><a href="http://www.macromedia.com/go/getflashplayer">Get the Flash Player</a> to see this player.</p>
-	<script type="text/javascript">
-		var s2 = new SWFObject("flvplayer.swf","single","480","360","7");
-		s2.addParam("allowfullscreen","true");
-		s2.addVariable("file","http://www.si-entertainment.com/dahie/videos/BehindClosedDoors2.flv");
-		s2.addVariable("displayheight","480");
-		s2.addVariable("backcolor","0x000000");
-		s2.addVariable("frontcolor","0xCCCCCC");
-		s2.addVariable("lightcolor","0x557722");
-		s2.write("player2");
-	</script>
-</div>
-  
+<h3>Presseecho</h3>
+<blockquote><p>&#8220;The most thrilling film of the year.&#8221;<br />
+<cite>The Springfield Shopper</cite></p></blockquote>
+
+<blockquote><p>&#8220;You can't help but feel that you are being followed afterwards!&#8221;<br />
+<cite>Steve N. King</cite></p></blockquote>
+
+<h3>Auszeichnungen</h3> 
+<ul>
+<li><b>The Golden Raven Award</b>&reg;<b>for best Suspense</b> auf dem Xanadu Film Festival</li>
+<li>dem <b>Norman Bates Award</b>&reg;<br /><img src="media/NormanBatesAward.png" alt="Norman Bates Award" /></li>
+</ul>
 
     
 <?php render_footer(); ?>

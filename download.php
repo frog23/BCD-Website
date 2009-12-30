@@ -6,24 +6,30 @@
   render_header();
   ?>
 
+<h2>Downloads</h2>
+		<p>Hier gibt es Rohmaterialien von unserem Dreh.</p>
+		<table>
+			<tr>
 
-    <!-- Insert your content here -->
-<h2>Trailer</h2>
+				<td><a href="media/drehbuchv2.pdf" title="Download das Drehbuch"><strong>Drehbuch Version 2.0</strong></a></td>
+				<td>Dies war die zweite Version des Drehbuchs. Sie enthält Extraszenen, die nicht abgedreht wurden.</td>
+				
+			</tr>
+			<tr>
+				<td><a href="media/drehbuchv4.pdf" title="Download das Drehbuch"><strong>Drehbuch Version 4.0</strong></a></td>
+				<td>Dies war die dritte Version und letzte Version des Drehbuchs. Hier sind zahlreiche Szenen wieder rausgeflogen und wurden neuarrangiert.</td>
 
-<div class="embedded_video">
-	<p id="player2"><a href="http://www.macromedia.com/go/getflashplayer">Get the Flash Player</a> to see this player.</p>
-	<script type="text/javascript">
-		var s2 = new SWFObject("flvplayer.swf","single","480","360","7");
-		s2.addParam("allowfullscreen","true");
-		s2.addVariable("file","http://www.si-entertainment.com/dahie/videos/BehindClosedDoors2.flv");
-		s2.addVariable("displayheight","480");
-		s2.addVariable("backcolor","0x000000");
-		s2.addVariable("frontcolor","0xCCCCCC");
-		s2.addVariable("lightcolor","0x557722");
-		s2.write("player2");
-	</script>
-</div>
-  
+			</tr>
+			<tr>
+				<td><a href="media/storyboard.pdf" title="Download das Storyboard"><strong>Storyboard</strong></a></td>
+				<td>Grobes Skitzenheft für den Szenendreh.</td>
+			</tr>
+
+		</table>
+
+		<h2>Musik</h2>
+
+
 
     
 <?php render_footer(); ?>

@@ -7,7 +7,6 @@
   ?>
 
 
-    <!-- Insert your content here -->
 <h2>Production</h2>
 
 <h3>Die Aufgabe</h3>

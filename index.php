@@ -23,6 +23,9 @@
 		s2.write("player2");
 	</script>
 </div>
+<video src="flvplayer.swf" controls="controls">
+Fuck off, we hate you!
+<video>
   
 
     
