@@ -4,8 +4,6 @@
   Import this file using the following HTML or equivalent:
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
-@import compass/reset.sass
-
 /*
   The *:focus rule is reset and suppresses link outlining.
   You _must_ remember to redefine your own outline, as it’s an important accessibility aid. E.g.
@@ -48,11 +46,22 @@ body
   :margin 25px auto
   #content
     :background-color black
-    :border-left 1px solid
-    :border-right 1px solid
+    :background url("../images/bg-corner.jpg") no-repeat top right
+    :padding 48px
+    :padding-top 24px
+    :padding-right 128px
+    :border 1px solid
     :-moz-border-radius 15px
     :-webkit-border-radius 15px
     :border-color = !bcd_blue
+    :font-size 0.81em
+p
+  :padding 6px 0px
+  
+    
+ul, ol
+  :list-style square
+  :padding 6px 12px
     
 .embedded_video
   :margin 0px auto
@@ -76,18 +85,26 @@ h2
   :margin-bottom 0px
   :text-align center
 
+h3
+  :font-weight bold
+  :padding-top 12px
+
+
+
 
 #footer
   :margin-top 19px
   #navigation
     :border 1px solid
     :border-color = !bcd_blue
-    :background black url(../images/blue-bg.jpg) no-repeat center
+    /:background black url(../images/blue-bg.jpg) no-repeat center
+    :background black url(../images/button.jpg) no-repeat top right
+    
     :padding 12px
     :-moz-border-radius 15px
     :-webkit-border-radius 15px
     a
-      :color black
+      :color = !bcd_blue
       :font-weight bold
       &:hover
         :color white
@@ -95,5 +112,7 @@ h2
         :color white
     ul
       +horizontal_list
+      :text-align left
+      :padding-right 48px
       li
         :padding 6px 12px

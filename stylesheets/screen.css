@@ -1,27 +1,13 @@
 /* Welcome to Compass. In this file you should write your main styles. (or centralize your imports) Import this file using the following HTML or equivalent: <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; }
-
-*:focus { outline: 0; }
-
-body { line-height: 1em; color: black; background: #fff; }
-
-ol, ul { list-style: none; }
-
-/* tables still need 'cellspacing="0"' in the markup */
-table { border-collapse: separate; border-spacing: 0; vertical-align: middle; }
-
-caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
-
-q, blockquote { quotes: "" ""; }
-q:before, q:after, blockquote:before, blockquote:after { content: ""; }
-
-img a { border: none; }
-
 /* The *:focus rule is reset and suppresses link outlining. You _must_ remember to redefine your own outline, as it’s an important accessibility aid. E.g. *:focus   outline: #ccc dotted medium */
 body { background-color: black; color: white; font-family: Verdana, Arial; font-size: 13pt; }
 
 #wrap { width: 800px; margin: 25px auto; }
-#wrap #content { background-color: black; border-left: 1px solid; border-right: 1px solid; -moz-border-radius: 15px; -webkit-border-radius: 15px; border-color: #1b63ba; }
+#wrap #content { background-color: black; background: url("../images/bg-corner.jpg") no-repeat top right; padding: 48px; padding-top: 24px; padding-right: 128px; border: 1px solid; -moz-border-radius: 15px; -webkit-border-radius: 15px; border-color: #1b63ba; font-size: 0.81em; }
+
+p { padding: 6px 0px; }
+
+ul, ol { list-style: square; padding: 6px 12px; }
 
 .embedded_video { margin: 0px auto; width: 600px; }
 
@@ -32,11 +18,13 @@ h1 span { visibility: hidden; }
 
 h2 { font-size: 13pt; margin: 10px; margin-left: 0; margin-bottom: 0px; text-align: center; }
 
+h3 { font-weight: bold; padding-top: 12px; }
+
 #footer { margin-top: 19px; }
-#footer #navigation { border: 1px solid; border-color: #1b63ba; background: black url(../images/blue-bg.jpg) no-repeat center; padding: 12px; -moz-border-radius: 15px; -webkit-border-radius: 15px; }
-#footer #navigation a { color: black; font-weight: bold; }
+#footer #navigation { border: 1px solid; border-color: #1b63ba; background: black url(../images/button.jpg) no-repeat top right; padding: 12px; -moz-border-radius: 15px; -webkit-border-radius: 15px; }
+#footer #navigation a { color: #1b63ba; font-weight: bold; }
 #footer #navigation a:hover { color: white; }
 #footer #navigation a.active { color: white; }
-#footer #navigation ul { list-style-image: none; list-style-position: outside; list-style-type: none; overflow: auto; text-align: center; }
+#footer #navigation ul { list-style-image: none; list-style-position: outside; list-style-type: none; overflow: auto; text-align: center; text-align: left; padding-right: 48px; }
 #footer #navigation ul li { display: inline-block; }
 #footer #navigation ul li { padding: 6px 12px; }

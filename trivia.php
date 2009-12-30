@@ -40,7 +40,7 @@
 	<li>Die Filmklappe hat einen Zweck, nutz sie!</li>
 	<li>50% eines Drehbuchs sind Ausschuss.</li>
 	<li>Die gleiche Kamera kann Resultate verschiedener Qualität bringen.</li>
-	<li>Namenskonventionen sind was feines, habe viele davon!<br/>
+	<li>Namenskonventionen sind was feines, habe viele davon!
 		<ul>
 		<li>Aber, nicht mehr als eine.</li>
 		</ul>
