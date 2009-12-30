@@ -1,4 +1,7 @@
-<?php require("shared/partials.php"); ?>
+<?php
+require("shared/partials.php");
+
+?>
 
 
 <?php
