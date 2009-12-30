@@ -1,9 +1,15 @@
 <?php
 
 function render_footer() {
-  echo "</body>
-    </html>
-    ";  
+  echo '
+    </div>
+    <div class="footer">
+      
+    </div>
+  </div>  
+</body>
+</html>
+';  
 }
 
 ?>
