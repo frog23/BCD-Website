@@ -10,7 +10,6 @@
     <!-- Insert your content here -->
 <h2>Trailer</h2>
 
-
 <div class="embedded_video">
 	<p id="player2"><a href="http://www.macromedia.com/go/getflashplayer">Get the Flash Player</a> to see this player.</p>
 	<script type="text/javascript">
