@@ -7,7 +7,7 @@ function render_html_header($title) {
 <head>
 	<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
   <title>'.$title.'</title>
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="swfobject.js"></script>
 </head>
 <body>';

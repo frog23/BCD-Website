@@ -18,3 +18,25 @@ q:before, q:after, blockquote:before, blockquote:after { content: ""; }
 img a { border: none; }
 
 /* The *:focus rule is reset and suppresses link outlining. You _must_ remember to redefine your own outline, as it’s an important accessibility aid. E.g. *:focus   outline: #ccc dotted medium */
+body { background-color: black; color: white; font-family: Verdana, Arial; font-size: 13pt; }
+
+#wrap { width: 800px; margin: 25px auto; }
+#wrap #content { background-color: black; border-left: 1px solid; border-right: 1px solid; -moz-border-radius: 15px; -webkit-border-radius: 15px; border-color: #1b63ba; }
+
+.embedded_video { margin: 0px auto; width: 600px; }
+
+a { color: #1b63ba; text-decoration: none; }
+
+h1 { display: block; width: 700px; height: 397px; background-color: transparent; background-repeat: no-repeat; background-image: url(../images/logo.jpg); overflow: hidden; }
+h1 span { visibility: hidden; }
+
+h2 { font-size: 13pt; margin: 10px; margin-left: 0; margin-bottom: 0px; text-align: center; }
+
+#footer { margin-top: 19px; }
+#footer #navigation { border: 1px solid; border-color: #1b63ba; background: black url(../images/blue-bg.jpg) no-repeat center; padding: 12px; -moz-border-radius: 15px; -webkit-border-radius: 15px; }
+#footer #navigation a { color: black; font-weight: bold; }
+#footer #navigation a:hover { color: white; }
+#footer #navigation a.active { color: white; }
+#footer #navigation ul { list-style-image: none; list-style-position: outside; list-style-type: none; overflow: auto; text-align: center; }
+#footer #navigation ul li { display: inline-block; }
+#footer #navigation ul li { padding: 6px 12px; }

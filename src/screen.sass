@@ -11,3 +11,89 @@
   You _must_ remember to redefine your own outline, as it’s an important accessibility aid. E.g.
   *:focus
     outline: #ccc dotted medium
+
+
+!bcd_blue = #1B63BA
+
+
+=horizontal_list
+  :list-style-image none
+  :list-style-position outside
+  :list-style-type none
+  :overflow auto
+  :text-align center
+  li
+    :display inline-block
+    
+=display_as_graphic(!url, !width, !height)
+  :display block
+  :width = !width
+  :height = !height
+  :background-color transparent
+  :background-repeat no-repeat
+  :background-image = !url
+  :overflow hidden
+  span
+    :visibility hidden
+
+
+body
+  :background-color black
+  :color white
+  :font-family Verdana, Arial
+  :font-size 13pt
+  
+#wrap
+  :width 800px
+  :margin 25px auto
+  #content
+    :background-color black
+    :border-left 1px solid
+    :border-right 1px solid
+    :-moz-border-radius 15px
+    :-webkit-border-radius 15px
+    :border-color = !bcd_blue
+    
+.embedded_video
+  :margin 0px auto
+  :width 600px
+  
+a
+  :color = !bcd_blue
+  :text-decoration none
+  
+h1 
+  /:font-size 18pt
+  /:text-align left
+  /:font-weight bold
+  /:text-align center
+  +display_as_graphic("url(../images/logo.jpg)", 700px, 397px)
+
+h2 
+  :font-size 13pt
+  :margin 10px
+  :margin-left 0
+  :margin-bottom 0px
+  :text-align center
+
+
+#footer
+  :margin-top 19px
+  #navigation
+    :border 1px solid
+    :border-color = !bcd_blue
+    :background black url(../images/blue-bg.jpg) no-repeat center
+    :padding 12px
+    :-moz-border-radius 15px
+    :-webkit-border-radius 15px
+    a
+      :color black
+      :font-weight bold
+      &:hover
+        :color white
+      &.active
+        :color white
+    ul
+      +horizontal_list
+      li
+        :padding 6px 12px

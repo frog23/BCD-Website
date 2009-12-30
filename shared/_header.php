@@ -2,11 +2,11 @@
 
 function render_header() {
   echo '
-<div class="wrap">
-  <div class="header">
-    <h1>Behind closed doors</h1>
+<div id="wrap">
+  <div id="header">
+    <h1><span>Behind closed doors</span></h1>
   </div>
-  <div class="content">
+  <div id="content">
 ';
   
 }
