@@ -2,21 +2,22 @@
 /* The *:focus rule is reset and suppresses link outlining. You _must_ remember to redefine your own outline, as it’s an important accessibility aid. E.g. *:focus   outline: #ccc dotted medium */
 body { background-color: black; color: white; font-family: Verdana, Arial; font-size: 13pt; }
 
-#wrap { width: 800px; margin: 25px auto; }
+#wrap { width: 800px; margin: 0px auto; }
 #wrap #content { background-color: black; background: url("../images/bg-corner.jpg") no-repeat top right; padding: 48px; padding-top: 24px; padding-right: 128px; border: 1px solid; -moz-border-radius: 15px; -webkit-border-radius: 15px; border-color: #1b63ba; font-size: 0.81em; }
 
 p { padding: 6px 0px; }
 
 ul, ol { list-style: square; padding: 6px 12px; }
+ul li, ol li { padding: 6px 0px; }
 
 .embedded_video { margin: 0px auto; width: 600px; }
 
 a { color: #1b63ba; text-decoration: none; }
 
-h1 { display: block; width: 700px; height: 397px; background-color: transparent; background-repeat: no-repeat; background-image: url(../images/logo.jpg); overflow: hidden; }
+h1 { margin: 0px; display: block; width: 700px; height: 397px; background-color: transparent; background-repeat: no-repeat; background-image: url(../images/logo.jpg); overflow: hidden; }
 h1 span { visibility: hidden; }
 
-h2 { font-size: 13pt; margin: 10px; margin-left: 0; margin-bottom: 0px; text-align: center; }
+h2 { font-size: 13pt; margin: 10px; margin-left: 0; margin-bottom: 0px; text-align: left; }
 
 h3 { font-weight: bold; padding-top: 12px; }
 
