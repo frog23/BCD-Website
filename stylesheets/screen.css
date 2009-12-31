@@ -25,6 +25,10 @@ h2 { font-size: 1.6em; margin: 10px; margin-left: 0; margin-bottom: 0px; text-al
 
 h3 { font-weight: bold; padding-top: 12px; }
 
+img { border: 1px solid #eeeeee; margin: 12px; }
+
+.floatleft { float: left; }
+
 #footer { margin-top: 19px; }
 #footer #navigation { border: 1px solid; border-color: #1b63ba; background: black url(../images/button.jpg) no-repeat top right; padding: 12px; -moz-border-radius: 15px; -webkit-border-radius: 15px; }
 #footer #navigation a { color: #1b63ba; font-weight: bold; }
