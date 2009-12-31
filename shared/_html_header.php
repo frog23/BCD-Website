@@ -12,3 +12,5 @@ function render_html_header($title) {
 </head>
 <body>';
 }
+
+?>

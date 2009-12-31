@@ -27,7 +27,7 @@
 </p>
 
 <h3>Die Nachbearbeitung</h3>
-<p>Aus 4 Stunden Filmmaterial galt es nun die entscheidenden 10 Minuten herauszusuchen, mit Effekten zu versehen, richtig anzuordnen und mit Musik zu unterlegen. Insgesamt brauchten wir für nach Post-Production deutlich mehr Zeit als für das eigentliche Drehen. 20 Minuten für Abgabe war der Film dann auch tatsächlich fertig gerendert. Brauche ich eigentlich noch erwähnen, dass wir für den Film die Bestnote bekamen?
+<p>Aus 4 Stunden Filmmaterial galt es nun die entscheidenden 10 Minuten herauszusuchen, mit Effekten zu versehen, richtig anzuordnen und mit Musik zu unterlegen. Insgesamt brauchten wir für nach Post-Production deutlich mehr Zeit als für das eigentliche Drehen. 20 Minuten vor Abgabe war der Film dann auch tatsächlich fertig gerendert. Brauche ich eigentlich noch erwähnen, dass wir für den Film die Bestnote bekamen?
 </p>
 
 
