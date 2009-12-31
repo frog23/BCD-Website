@@ -1,6 +1,6 @@
 <?php
 	require("shared/partials.php"); 
-  render_html_header("Behind closed doors");
+  render_html_header("Behind Closed Doors - Trivia");
   render_header();
   ?>
 

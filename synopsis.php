@@ -1,11 +1,10 @@
 <?php
   require("shared/partials.php"); 
-  render_html_header("Behind closed doors");
+  render_html_header("Behind Closed Doors - Synopsis");
   render_header();
   ?>
 
 
-    <!-- Insert your content here -->
 <h2>Synopsis</h2>
 <p>Ein Mord, ein Freund, eine Wahrheit, nur welche?</p>
 <p>
