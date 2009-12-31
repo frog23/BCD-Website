@@ -33,28 +33,40 @@
   :overflow hidden
   span
     :visibility hidden
+    
+=transparent_class(!value)
+  :-moz-opacity = !value
+  :-webkit-opacity = !value
+  :opacity = !value
 
 
 body
   :background-color black
-  :color white
+  :color #eeeeee
   :font-family Verdana, Arial
   :font-size 13pt
   
 #wrap
   :width 800px
   :margin 0px auto
+  :background url("../images/logo.jpg") no-repeat top center
   #content
-    :background-color black
-    :background url("../images/bg-corner.jpg") no-repeat top right
-    :padding 48px
-    :padding-top 24px
-    :padding-right 128px
+    :background black url("../images/logo-bottom.jpg") no-repeat top center
+    /:background-color #000000
+    /+transparent_class(0.4)
+    
     :border 1px solid
     :-moz-border-radius 15px
     :-webkit-border-radius 15px
     :border-color = !bcd_blue
     :font-size 0.81em
+    .inner
+      :padding 48px
+      :padding-top 24px
+      :padding-right 128px
+      :-moz-border-radius 15px
+      :-webkit-border-radius 15px
+      :background transparent url("../images/bg-corner.png") no-repeat top right
 p
   :padding 6px 0px
   
@@ -79,7 +91,10 @@ h1
   /:text-align left
   /:font-weight bold
   /:text-align center
-  +display_as_graphic("url(../images/logo.jpg)", 700px, 397px)
+  /+display_as_graphic("url(../images/logo.jpg)", 700px, 397px)
+  :height 200px
+  span
+    :visibility hidden
 
 h2 
   :font-size 13pt
@@ -119,3 +134,8 @@ h3
       :padding-right 48px
       li
         :padding 6px 12px
+  #license
+    :margin 48px auto
+    :width 500px
+    :font-size 0.63em
+    :color grey

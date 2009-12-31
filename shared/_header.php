@@ -7,6 +7,7 @@ function render_header() {
     <h1><span>Behind closed doors</span></h1>
   </div>
   <div id="content">
+    <div class="inner">
 ';
   
 }

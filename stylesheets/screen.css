@@ -1,9 +1,10 @@
 /* Welcome to Compass. In this file you should write your main styles. (or centralize your imports) Import this file using the following HTML or equivalent: <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* The *:focus rule is reset and suppresses link outlining. You _must_ remember to redefine your own outline, as it’s an important accessibility aid. E.g. *:focus   outline: #ccc dotted medium */
-body { background-color: black; color: white; font-family: Verdana, Arial; font-size: 13pt; }
+body { background-color: black; color: #eeeeee; font-family: Verdana, Arial; font-size: 13pt; }
 
-#wrap { width: 800px; margin: 0px auto; }
-#wrap #content { background-color: black; background: url("../images/bg-corner.jpg") no-repeat top right; padding: 48px; padding-top: 24px; padding-right: 128px; border: 1px solid; -moz-border-radius: 15px; -webkit-border-radius: 15px; border-color: #1b63ba; font-size: 0.81em; }
+#wrap { width: 800px; margin: 0px auto; background: url("../images/logo.jpg") no-repeat top center; }
+#wrap #content { background: black url("../images/logo-bottom.jpg") no-repeat top center; border: 1px solid; -moz-border-radius: 15px; -webkit-border-radius: 15px; border-color: #1b63ba; font-size: 0.81em; }
+#wrap #content .inner { padding: 48px; padding-top: 24px; padding-right: 128px; -moz-border-radius: 15px; -webkit-border-radius: 15px; background: transparent url("../images/bg-corner.png") no-repeat top right; }
 
 p { padding: 6px 0px; }
 
@@ -14,7 +15,7 @@ ul li, ol li { padding: 6px 0px; }
 
 a { color: #1b63ba; text-decoration: none; }
 
-h1 { margin: 0px; display: block; width: 700px; height: 397px; background-color: transparent; background-repeat: no-repeat; background-image: url(../images/logo.jpg); overflow: hidden; }
+h1 { margin: 0px; height: 200px; }
 h1 span { visibility: hidden; }
 
 h2 { font-size: 13pt; margin: 10px; margin-left: 0; margin-bottom: 0px; text-align: left; }
@@ -29,3 +30,4 @@ h3 { font-weight: bold; padding-top: 12px; }
 #footer #navigation ul { list-style-image: none; list-style-position: outside; list-style-type: none; overflow: auto; text-align: center; text-align: left; padding-right: 48px; }
 #footer #navigation ul li { display: inline-block; }
 #footer #navigation ul li { padding: 6px 12px; }
+#footer #license { margin: 48px auto; width: 500px; font-size: 0.63em; color: grey; }
