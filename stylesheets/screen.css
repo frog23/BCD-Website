@@ -2,7 +2,7 @@
 /* The *:focus rule is reset and suppresses link outlining. You _must_ remember to redefine your own outline, as it’s an important accessibility aid. E.g. *:focus   outline: #ccc dotted medium */
 body { background-color: black; color: #eeeeee; font-family: Verdana, Arial; font-size: 13pt; }
 
-#wrap { width: 800px; margin: 0px auto; background: url("../images/logo.jpg") no-repeat top center; }
+#wrap { width: 800px; margin: 0px auto; margin-bottom: 60px; background: url("../images/logo.jpg") no-repeat top center; }
 #wrap #content { background: black url("../images/logo-bottom.jpg") no-repeat top center; border: 1px solid; -moz-border-radius: 15px; -webkit-border-radius: 15px; border-color: #1b63ba; font-size: 0.81em; }
 #wrap #content .inner { padding: 48px; padding-top: 24px; padding-right: 128px; -moz-border-radius: 15px; -webkit-border-radius: 15px; background: transparent url("../images/bg-corner.png") no-repeat top right; }
 
