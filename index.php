@@ -1,10 +1,5 @@
 <?php
-require("shared/partials.php");
-
-?>
-
-
-<?php
+  require("shared/partials.php");
   render_html_header("Behind closed doors");
   render_header();
   ?>
@@ -26,9 +21,6 @@ require("shared/partials.php");
 		s2.write("player2");
 	</script>
 </div>
-<video src="flvplayer.swf" controls="controls">
-Fuck off, we hate you!
-<video>
   
 
     

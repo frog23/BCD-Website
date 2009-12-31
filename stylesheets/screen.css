@@ -5,11 +5,14 @@ body { background-color: black; color: #eeeeee; font-family: Verdana, Arial; fon
 #wrap { width: 800px; margin: 0px auto; margin-bottom: 60px; background: url("../images/logo.jpg") no-repeat top center; }
 #wrap #content { background: black url("../images/logo-bottom.jpg") no-repeat top center; border: 1px solid; -moz-border-radius: 15px; -webkit-border-radius: 15px; border-color: #1b63ba; font-size: 0.81em; }
 #wrap #content .inner { padding: 48px; padding-top: 24px; padding-right: 128px; -moz-border-radius: 15px; -webkit-border-radius: 15px; background: transparent url("../images/bg-corner.png") no-repeat top right; }
+#wrap #content .inner .person { border-bottom: 1px solid; border-color: #1b63ba; overflow: auto; clear: both; }
+#wrap #content .inner .person.last { border: none; }
+#wrap #content .inner .person img { float: right; }
 
 p { padding: 6px 0px; }
 
 ul, ol { list-style: square; padding: 6px 12px; }
-ul li, ol li { padding: 6px 0px; }
+ul li, ol li { padding: 6px 6px; }
 
 .embedded_video { margin: 0px auto; width: 600px; }
 
@@ -18,7 +21,7 @@ a { color: #1b63ba; text-decoration: none; }
 h1 { margin: 0px; height: 200px; }
 h1 span { visibility: hidden; }
 
-h2 { font-size: 13pt; margin: 10px; margin-left: 0; margin-bottom: 0px; text-align: left; }
+h2 { font-size: 1.6em; margin: 10px; margin-left: 0; margin-bottom: 0px; text-align: left; }
 
 h3 { font-weight: bold; padding-top: 12px; }
 

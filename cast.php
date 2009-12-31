@@ -36,7 +36,7 @@
 	</ul>
 	</div>
 
-	<div class="person">
+	<div class="person last">
 	<h3>Julie Merick - Marla</h3>
 	<img src="media/marla.jpeg" alt="Marla" />
 	<p>Sie ist eine Nachbarin von Jack und fasziniert von seiner scheuen Art. Sie will herausfinden, wer hinter diesem seltsamen Menschen ist.</p> 
@@ -56,11 +56,11 @@
 	<p>Weitere Filme von Pete Yäksan:</p>
 	<ul>
 		<li>Strange Fight</li>
-		<li>Mars Attacks</li>
+		<li>Venus Attacks</li>
 	</ul>
 	</div>
 	
-	<div class="person">
+	<div class="person last">
 	<h3>Chris Callavera</h3>
 	<img src="media/chris.jpeg" alt="Chris Calavera" />
 	<p>Der visionäre Art-Direktor, der dem Film einen ganz eigenen Look gab.</p> 
