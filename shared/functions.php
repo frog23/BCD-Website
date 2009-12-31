@@ -1,7 +1,5 @@
 <?php
 
-global $page;
-$page = current_page();
 
 function current_page() {
   $file = $_SERVER["SCRIPT_NAME"];
@@ -9,6 +7,9 @@ function current_page() {
   $pfile = $break[count($break) - 1];
   return $pfile;
 }
+
+global $page;
+$page = current_page();
 
 function link_to($name, $url, $class = "", $title = "") {
   echo '<a href="'.$url.'" ';

@@ -1,4 +1,5 @@
 <?php
+
 function nav_list_entry($title, $url) {
   echo "<li>";
       $class = ($file == $url) ? 'active' : '';
@@ -7,8 +8,9 @@ function nav_list_entry($title, $url) {
 }
 
 function is_makingof() {
+  $currentPage = current_page();
   $makingof = array("production.php", "trivia.php", "download.php" );
-  return in_array(current_page(), $makingof);
+  return in_array($currentPage, $makingof);
 }
 
 function render_footer() {

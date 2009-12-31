@@ -10,7 +10,8 @@
 <h2>Production</h2>
 
 <h3>Die Aufgabe</h3>
-<p>"Behind Closed Doors" war ein Filmprojekt von Studenten des Internationalen Studienganges Medieninformatik an der FHTW Berlin. Im Kurs Medientechnik 2 wurde die Aufgabe gestellt, einen Kurzfilm von 5-10 Minuten Länge zu produzieren. 
+<p>"Behind Closed Doors" war ein Filmprojekt von Studenten des Internationalen Studienganges Medieninformatik an der HTW Berlin. Im Kurs Medientechnik 2 wurde die Aufgabe gestellt, einen Kurzfilm von 5-10 Minuten Länge zu einem frei wählbarem Thema zu produzieren. Die Bewertungsschwerpunkte lagen bei Schnitt und
+ Special Effects. 
 </p>
 
 <h3>Die Idee</h3>

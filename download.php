@@ -28,7 +28,16 @@
 		</table>
 
 		<h2>Musik</h2>
-
+Celestial Aeon Project 
+<ul>
+<li><a href="http://www.jamendo.com/de/track/25379">Angel's Tear</a></li>
+<li><a href="http://www.jamendo.com/en/track/26428">I will come for you</a></li>
+<li><a href="http://www.jamendo.com/de/track/26440">Through the Dark Portal</a></li>
+</ul>
+Matthew Tyas
+<ul>
+<li><a href="http://www.jamendo.com/de/track/12555">Intellectual</a></li>
+</ul>
 
 
     
