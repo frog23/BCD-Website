@@ -1,7 +1,5 @@
-<?php require("shared/partials.php"); ?>
-
-
 <?php
+  require("shared/partials.php"); 
   render_html_header("Behind closed doors");
   render_header();
   ?>
