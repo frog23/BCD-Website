@@ -29,7 +29,8 @@ function render_footer() {
   } else {
     nav_list_entry("Production", 'production.php');
     nav_list_entry("Trivia", 'trivia.php');
-    
+    nav_list_entry("Download", 'download.php');
+    nav_list_entry("To the movie", 'index.php');
   }
           
           
