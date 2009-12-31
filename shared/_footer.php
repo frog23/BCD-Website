@@ -43,10 +43,9 @@ function render_footer() {
       </div>';
   if($is_makingof)
     echo '<div id="license">
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/de/">
-        <img alt="Creative Commons License" style="border-width:0;float:left;padding-right:10px;" src="http://i.creativecommons.org/l/by-nc-sa/2.0/de/88x31.png" /></a>
-        This <span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/MovingImage" rel="dc:type">work</span> is licensed under a
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/de/">Creative Commons Attribution-Noncommercial-Share Alike 2.0 Germany License</a>.
+	<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/de/">
+	<img alt="Creative Commons License" style="border-width:0;float:left;padding-right:10px;" src="http://i.creativecommons.org/l/by-nc-sa/3.0/de/88x31.png" /></a>
+	Diese Seite ist unter einer <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/de/">Creative Commons Attribution-Noncommercial-Share Alike 2.0 Germany-Lizenz</a> lizenziert.
       </div>';
       
 echo '    </div>
