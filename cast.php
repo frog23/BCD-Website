@@ -12,7 +12,7 @@
 
 	<div class="person">
 	<h3>Ben Winter - Jack</h3>
-	<img src="images/jack.jpeg" alt="Jack" />
+	<img src="media/jack.jpeg" alt="Jack" />
 	<p>Schüchtern, unsicher, allein, diese Worte beschreiben Jack. Als Zeuge eines Mordes lebt er in ständiger Angst und in Delbert findet er den einzigen Freund, der ihn versteht.</p> 
 	<p><strong>Ben Winter</strong> ist bekannt aus Filmen wie:</p>
 
@@ -26,7 +26,7 @@
 
 	<div class="person">
 	<h3>William Grady - Delbert Parcher</h3>
-	<img src="images/delbert.jpeg" alt="Delbert Parcher" />
+	<img src="media/delbert.jpeg" alt="Delbert Parcher" />
 	<p>Jacks bester Freund und in der selben Firma. Sie verbringen Zeit zusammen, respektieren sich, doch Delbert hat ein Geheimnis, von dem Jack noch nichts weiß.</p> 
 	<p><strong>William Grady</strong> ist bekannt aus Filmen wie:</p>
 	<ul>
@@ -38,7 +38,7 @@
 
 	<div class="person">
 	<h3>Julie Merick - Marla</h3>
-	<img src="images/marla.jpeg" alt="Marla" />
+	<img src="media/marla.jpeg" alt="Marla" />
 	<p>Sie ist eine Nachbarin von Jack und fasziniert von seiner scheuen Art. Sie will herausfinden, wer hinter diesem seltsamen Menschen ist.</p> 
 	<p><strong>Julie Merick</strong> bekannt aus dem Film:</p>
 	<ul>
@@ -51,7 +51,7 @@
 
 	<div class="person">
 	<h3>Pete Yäksan</h3>
-	<img src="images/pete.jpeg" alt="Pete Yäksan" />
+	<img src="media/pete.jpeg" alt="Pete Yäksan" />
 	<p>Wieder liefert der preisgekrönte Regisseur, der sich bereits für viele andere Meisterwerke verantwortlich zeigte, einen atemberaubenden Thriller ab.</p> 
 	<p>Weitere Filme von Pete Yäksan:</p>
 	<ul>
@@ -62,7 +62,7 @@
 	
 	<div class="person">
 	<h3>Chris Callavera</h3>
-	<img src="images/cris.jpeg" alt="Chris Calavera" />
+	<img src="media/chris.jpeg" alt="Chris Calavera" />
 	<p>Der visionäre Art-Direktor, der dem Film einen ganz eigenen Look gab.</p> 
 	<p>Weitere Filme von Chris Callavera:</p>
 	<ul>
