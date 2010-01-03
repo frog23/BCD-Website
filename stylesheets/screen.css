@@ -38,3 +38,4 @@ img { border: 1px solid #eeeeee; margin: 12px; }
 #footer #navigation ul li { display: inline-block; }
 #footer #navigation ul li { padding: 6px 12px; }
 #footer #license { margin: 48px auto; width: 500px; font-size: 0.63em; color: grey; }
+#footer #license img { padding: 0; margin: 0; }

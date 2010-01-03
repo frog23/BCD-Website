@@ -11,10 +11,10 @@
 <div class="embedded_video">
 	<p id="player2"><a href="http://www.macromedia.com/go/getflashplayer">Get the Flash Player</a> to see this player.</p>
 	<script type="text/javascript">
-		var s2 = new SWFObject("flvplayer.swf","single","480","360","7");
+		var s2 = new SWFObject("flvplayer.swf","single","720","576","7");
 		s2.addParam("allowfullscreen","true");
-		s2.addVariable("file","http://www.si-entertainment.com/dahie/videos/BehindClosedDoors2.flv");
-		s2.addVariable("displayheight","480");
+		s2.addVariable("file","http://www.si-entertainment.com/dahie/videos/BehindClosedDoors.flv");
+		s2.addVariable("displayheight","576");
 		s2.addVariable("backcolor","0x000000");
 		s2.addVariable("frontcolor","0xCCCCCC");
 		s2.addVariable("lightcolor","0x557722");
