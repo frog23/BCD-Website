@@ -14,7 +14,8 @@ p { padding: 6px 0px; }
 ul, ol { list-style: square; padding: 6px 12px; }
 ul li, ol li { padding: 6px 6px; }
 
-.embedded_video { margin: 0px auto; width: 600px; }
+.embedded_video { margin: 0px auto; width: 720px; }
+.embedded_video p { padding: 0; margin: 0; }
 
 a { color: #1b63ba; text-decoration: none; }
 
@@ -30,7 +31,7 @@ img { border: 1px solid #eeeeee; margin: 12px; }
 .floatleft { float: left; }
 
 #footer { margin-top: 19px; }
-#footer #navigation { border: 1px solid; border-color: #1b63ba; background: black url(../images/button.jpg) no-repeat top right; padding: 12px; -moz-border-radius: 15px; -webkit-border-radius: 15px; }
+#footer #navigation { border: 1px solid; border-color: #1b63ba; background: black url(../images/button.jpg) no-repeat top right; padding: 9px; -moz-border-radius: 15px; -webkit-border-radius: 15px; }
 #footer #navigation a { color: #1b63ba; font-weight: bold; }
 #footer #navigation a:hover { color: white; }
 #footer #navigation a.active { color: white; }

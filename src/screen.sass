@@ -11,7 +11,7 @@
     outline: #ccc dotted medium
 
 
-!bcd_blue = #1B63BA
+$bcd_blue: #1B63BA
 
 
 =horizontal_list
@@ -23,21 +23,28 @@
   li
     :display inline-block
     
-=display_as_graphic(!url, !width, !height)
-  :display block
-  :width = !width
-  :height = !height
+=display_as_graphic($url, $width, $height)
+  display: block
+  width: $width
+  height: $height
   :background-color transparent
   :background-repeat no-repeat
-  :background-image = !url
+  background-image: $url
   :overflow hidden
   span
-    :visibility hidden
+    visibility: hidden
     
-=transparent_class(!value)
-  :-moz-opacity = !value
-  :-webkit-opacity = !value
-  :opacity = !value
+=transparent_class($value)
+  -moz-opacity: $value
+  -webkit-opacity: $value
+  :opacity: $value
+  
+=border_radius($value)
+  -moz-border-radius: $value
+  -webkit-border-radius: $value
+  border-radius: $value
+  
+=border_radius()
 
 
 body
@@ -57,20 +64,18 @@ body
     /+transparent_class(0.4)
     
     :border 1px solid
-    :-moz-border-radius 15px
-    :-webkit-border-radius 15px
-    :border-color = !bcd_blue
+    +border_radius(15px)
+    border-color: $bcd_blue
     :font-size 0.81em
     .inner
       :padding 48px
       :padding-top 24px
       :padding-right 128px
-      :-moz-border-radius 15px
-      :-webkit-border-radius 15px
+      +border_radius(15px)
       :background transparent url("../images/bg-corner.png") no-repeat top right
       .person
         :border-bottom 1px solid
-        :border-color = !bcd_blue
+        border-color: $bcd_blue
         :overflow auto
         :clear both
         &.last
@@ -95,8 +100,8 @@ ul, ol
     :margin 0
   
 a
-  :color = !bcd_blue
-  :text-decoration none
+  color: $bcd_blue
+  text-decoration: none
   
 h1
   :margin 0px
@@ -132,15 +137,13 @@ img
   :margin-top 19px
   #navigation
     :border 1px solid
-    :border-color = !bcd_blue
+    border-color: $bcd_blue
     /:background black url(../images/blue-bg.jpg) no-repeat center
     :background black url(../images/button.jpg) no-repeat top right
-    
-    :padding 12px
-    :-moz-border-radius 15px
-    :-webkit-border-radius 15px
+    :padding 9px
+    +border_radius(15px)
     a
-      :color = !bcd_blue
+      color: $bcd_blue
       :font-weight bold
       &:hover
         :color white
