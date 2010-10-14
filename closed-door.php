@@ -6,7 +6,7 @@
 
 
 <h2>Die Wahrheit über diesen Film</h2>
-<p>Wenn ihr euch jetzt auf einen spannenden Film freut, müssen wir euch enttäuchen: Diesen Film gibt es nicht, und es wird ihn (wahrscheinlich) nie geben.
+<p>Wenn ihr euch jetzt auf einen spannenden Film freut, müssen wir euch enttäuschen: Diesen Film gibt es nicht, und es wird ihn (wahrscheinlich) nie geben.
 </p>
 
 <h3>Die Aufgabe</h3>
